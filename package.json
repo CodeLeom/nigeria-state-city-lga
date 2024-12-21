@@ -13,7 +13,7 @@
   ],
   "author": "Aransiola Ayodele",
   "license": "ISC",
-  "description": "A collection of all states, cities and LGA in Nigeria",
+  "description": "Comprehensive dataset of Nigerian states, LGAs, and towns.",
   "dependencies": {
     "lodash": "^4.17.21"
   }
