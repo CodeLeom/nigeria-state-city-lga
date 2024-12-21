@@ -380,7 +380,7 @@
     {
       "name": "Bayelsa",
       "capital": "Yenagoa",
-      "lgas": [
+      "lga": [
         "Brass",
         "Ekeremor",
         "Kolokuma/Opokuma",
@@ -390,7 +390,7 @@
         "Southern Ijaw",
         "Yenagoa"
       ],
-      "towns": ["Brass", "Ogbia", "Yenagoa"]
+      "town": ["Sagbama", "Brass", "Ekeremor", "Ogbia", "Nembe", "Southern Ijaw", "Kolokuma/Opokuma", "Oloibiri", "Otuoke", "Yenagoa"]
     },
     {
       "name": "Benue",
