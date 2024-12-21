@@ -1,0 +1,12 @@
+{
+  "name": "nigeria-state-city-lga",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["States, Cities, LGA in Nigeria", "Nigeria", "States", "LGA"],
+  "author": "Aransiola Ayodele",
+  "license": "ISC",
+  "description": "A collection of all states, cities and LGA in Nigeria"
+}
