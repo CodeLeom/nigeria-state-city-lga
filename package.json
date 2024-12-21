@@ -5,8 +5,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["States, Cities, LGA in Nigeria", "Nigeria", "States", "LGA"],
+  "keywords": [
+    "States, Cities, LGA in Nigeria",
+    "Nigeria",
+    "States",
+    "LGA"
+  ],
   "author": "Aransiola Ayodele",
   "license": "ISC",
-  "description": "A collection of all states, cities and LGA in Nigeria"
+  "description": "A collection of all states, cities and LGA in Nigeria",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
