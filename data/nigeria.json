@@ -3,7 +3,7 @@
     {
       "name": "Abia",
       "capital": "Umuahia",
-      "lga": [
+      "lgas": [
         "Aba North",
         "Aba South",
         "Arochukwu",
@@ -23,7 +23,7 @@
         "Umuahia South",
         "Umu-Neochi"
       ],
-      "town": [
+      "towns": [
         "Alayi",
         "Aba",
         "Ohafia",
@@ -75,7 +75,7 @@
     {
       "name": "Adamawa",
       "capital": "Yola",
-      "lga": [
+      "lgas": [
         "Demsa",
         "Fufore",
         "Ganye",
@@ -98,7 +98,7 @@
         "Yola North",
         "Yola South"
       ],
-      "town": [
+      "towns": [
         "Fufore",
         "Girei",
         "Dumne",
@@ -145,7 +145,7 @@
     {
       "name": "Akwa Ibom",
       "capital": "Uyo",
-      "lga": [
+      "lgas": [
         "Abak",
         "Eastern Obolo",
         "Eket",
@@ -178,7 +178,7 @@
         "Urue-Offong/Oruko",
         "Uyo"
       ],
-      "town": [
+      "towns": [
         "Abak",
         "Uyo",
         "Ika",
@@ -235,7 +235,7 @@
     {
       "name": "Anambra",
       "capital": "Awka",
-      "lga": [
+      "lgas": [
         "Aguata",
         "Anambra East",
         "Anambra West",
@@ -258,7 +258,7 @@
         "Orumba South",
         "Oyi"
       ],
-      "town": [
+      "towns": [
         "Abagana",
         "Ezinifite",
         "Amawbia",
@@ -299,7 +299,7 @@
         "Nsugbe",
         "Alor",
         "Awgbu",
-        "Oko Town",
+        "Oko towns",
         "Igbo Ukwu",
         "Agulu",
         "Nawfia",
@@ -326,7 +326,7 @@
     {
       "name": "Bauchi",
       "capital": "Bauchi",
-      "lga": [
+      "lgas": [
         "Alkaleri",
         "Bauchi",
         "Bogoro",
@@ -348,7 +348,7 @@
         "Warji",
         "Zaki"
       ],
-      "town": [
+      "towns": [
         "Ningi",
         "Azare",
         "Shira",
@@ -380,7 +380,7 @@
     {
       "name": "Bayelsa",
       "capital": "Yenagoa",
-      "lga": [
+      "lgas": [
         "Brass",
         "Ekeremor",
         "Kolokuma/Opokuma",
@@ -390,7 +390,7 @@
         "Southern Ijaw",
         "Yenagoa"
       ],
-      "town": [
+      "towns": [
         "Sagbama",
         "Brass",
         "Ekeremor",
@@ -406,7 +406,7 @@
     {
       "name": "Benue",
       "capital": "Makurdi",
-      "lga": [
+      "lgas": [
         "Ado",
         "Agatu",
         "Apa",
@@ -431,7 +431,7 @@
         "Ushongo",
         "Vandeikya"
       ],
-      "town": [
+      "towns": [
         "Makurdi",
         "Gboko",
         "Okpokwu",
@@ -463,7 +463,7 @@
     {
       "name": "Borno",
       "capital": "Maiduguri",
-      "lga": [
+      "lgas": [
         "Abadam",
         "Askira/Uba",
         "Bama",
@@ -492,7 +492,7 @@
         "Nganzai",
         "Shani"
       ],
-      "town": [
+      "towns": [
         "Dikwa",
         "Askira/Uba",
         "Ngala",
@@ -532,7 +532,7 @@
     {
       "name": "Cross River",
       "capital": "Calabar",
-      "lga": [
+      "lgas": [
         "Abi",
         "Akamkpa",
         "Akpabuyo",
@@ -552,7 +552,7 @@
         "Yakuur",
         "Yala"
       ],
-      "town": [
+      "towns": [
         "Afafanyi",
         "Inyima",
         "Ababene",
@@ -571,7 +571,7 @@
     {
       "name": "Delta",
       "capital": "Asaba",
-      "lga": [
+      "lgas": [
         "Aniocha North",
         "Aniocha South",
         "Bomadi",
@@ -598,7 +598,7 @@
         "Warri South",
         "Warri South West"
       ],
-      "town": [
+      "towns": [
         "Asaba",
         "Illah",
         "Abo",
@@ -633,7 +633,7 @@
     {
       "name": "Ebonyi",
       "capital": "Abakaliki",
-      "lga": [
+      "lgas": [
         "Abakaliki",
         "Afikpo North",
         "Afikpo South",
@@ -648,7 +648,7 @@
         "Ohaukwu",
         "Onicha"
       ],
-      "town": [
+      "towns": [
         "Abakaliki",
         "Ishieke",
         "Ishiagu",
@@ -670,7 +670,7 @@
     {
       "name": "Edo",
       "capital": "Benin City",
-      "lga": [
+      "lgas": [
         "Akoko-Edo",
         "Egor",
         "Esan Central",
@@ -690,7 +690,7 @@
         "Owan West",
         "Uhunmwonde"
       ],
-      "town": [
+      "towns": [
         "Benin City",
         "Esan North-East",
         "Ososo",
@@ -714,7 +714,7 @@
         "Okpekpe",
         "Ugboha",
         "Agenebode",
-        "Ogwa Town",
+        "Ogwa towns",
         "Ewohimi",
         "Okada",
         "Jattu",
@@ -743,7 +743,7 @@
     {
       "name": "Ekiti",
       "capital": "Ado-Ekiti",
-      "lga": [
+      "lgas": [
         "Ado-Ekiti",
         "Efon",
         "Ekiti East",
@@ -761,7 +761,7 @@
         "Moba",
         "Oye"
       ],
-      "town": [
+      "towns": [
         "Ido-Osi",
         "Ado Ekiti",
         "Efon Alaaye",
@@ -796,7 +796,7 @@
     {
       "name": "Enugu",
       "capital": "Enugu",
-      "lga": [
+      "lgas": [
         "Aninri",
         "Awgu",
         "Enugu East",
@@ -815,7 +815,7 @@
         "Udi",
         "Uzo-Uwani"
       ],
-      "town": [
+      "towns": [
         "Enugu",
         "Abi",
         "Achi",
@@ -863,7 +863,7 @@
     {
         "name": "Federal Capital Territory",
         "capital": "Abuja",
-        "lga": [
+        "lgas": [
           "Abaji",
           "Bwari",
           "Gwagwalada",
@@ -871,7 +871,7 @@
           "Kwali",
           "Municipal Area Council"
         ],
-        "town": [
+        "towns": [
             "Garki",
             "Gwagwa",
             "Gwarinpa",
@@ -893,7 +893,7 @@
     {
       "name": "Gombe",
       "capital": "Gombe",
-      "lga": [
+      "lgas": [
         "Akko",
         "Balanga",
         "Billiri",
@@ -906,7 +906,7 @@
         "Shongom",
         "Yamaltu/Deba"
       ],
-      "town": [
+      "towns": [
         "Dukku",
         "Kwami",
         "Nafada",
@@ -929,7 +929,7 @@
     {
       "name": "Imo",
       "capital": "Owerri",
-      "lga": [
+      "lgas": [
         "Aboh Mbaise",
         "Ahiazu Mbaise",
         "Ehime Mbano",
@@ -958,7 +958,7 @@
         "Owerri West",
         "Unuimo"
       ],
-      "town": [
+      "towns": [
         "Naze",
         "Iho",
         "Ogbaku",
@@ -1014,7 +1014,7 @@
     {
       "name": "Jigawa",
       "capital": "Dutse",
-      "lga": [
+      "lgas": [
         "Auyo",
         "Babura",
         "Birni Kudu",
@@ -1042,7 +1042,7 @@
         "Taura",
         "Yankwashi"
       ],
-      "town": [
+      "towns": [
         "Amaryawa",
         "Auyo",
         "Biriniwa",
@@ -1074,7 +1074,7 @@
     {
       "name": "Kaduna",
       "capital": "Kaduna",
-      "lga": [
+      "lgas": [
         "Birnin Gwari",
         "Chikun",
         "Giwa",
@@ -1099,7 +1099,7 @@
         "Zangon Kataf",
         "Zaria"
       ],
-      "town": [
+      "towns": [
         "Antan",
         "Atuku",
         "Birnin Gwari",
@@ -1144,7 +1144,7 @@
     {
       "name": "Kano",
       "capital": "Kano",
-      "lga": [
+      "lgas": [
         "Ajingi",
         "Albasu",
         "Bagwai",
@@ -1191,7 +1191,7 @@
         "Warawa",
         "Wudil"
       ],
-      "town": [
+      "towns": [
         "Ajingi",
         "Albasu",
         "Bagwai",
@@ -1237,7 +1237,7 @@
     {
       "name": "Katsina",
       "capital": "Katsina",
-      "lga": [
+      "lgas": [
         "Bakori",
         "Batagarawa",
         "Batsari",
@@ -1273,7 +1273,7 @@
         "Sandamu",
         "Zango"
       ],
-      "town": [
+      "towns": [
         "Batagarawa",
         "Batsari",
         "Baure",
@@ -1312,7 +1312,7 @@
     {
       "name": "Kebbi",
       "capital": "Birnin Kebbi",
-      "lga": [
+      "lgas": [
         "Aleiro",
         "Arewa Dandi",
         "Argungu",
@@ -1335,7 +1335,7 @@
         "Yauri",
         "Zuru"
       ],
-      "town": [
+      "towns": [
         "Gwandu",
         "Wasagu/Danko",
         "Koko/Besse",
@@ -1364,7 +1364,7 @@
     {
       "name": "Kogi",
       "capital": "Lokoja",
-      "lga": [
+      "lgas": [
         "Adavi",
         "Ajaokuta",
         "Ankpa",
@@ -1387,7 +1387,7 @@
         "Yagba East",
         "Yagba West"
       ],
-      "town": [
+      "towns": [
         "Adavi",
         "Aiyetoro Gbede",
         "Ajaokuta",
@@ -1429,7 +1429,7 @@
     {
       "name": "Kwara",
       "capital": "Ilorin",
-      "lga": [
+      "lgas": [
         "Asa",
         "Baruten",
         "Edu",
@@ -1447,7 +1447,7 @@
         "Oyun",
         "Pategi"
       ],
-      "town": [
+      "towns": [
         "Ajasse Ipo",
         "Alla Isin",
         "Aran-Orin",
@@ -1489,7 +1489,7 @@
     {
       "name": "Lagos",
       "capital": "Ikeja",
-      "lga": [
+      "lgas": [
         "Agege",
         "Ajeromi-Ifelodun",
         "Alimosho",
@@ -1511,7 +1511,7 @@
         "Shomolu",
         "Surulere"
       ],
-      "town": [
+      "towns": [
         "Adamo",
         "Agbede",
         "Agbowa Ikosi",
@@ -1547,7 +1547,7 @@
     {
       "name": "Nasarawa",
       "capital": "Lafia",
-      "lga": [
+      "lgas": [
         "Akwanga",
         "Awe",
         "Doma",
@@ -1562,11 +1562,11 @@
         "Toto",
         "Wamba"
       ],
-      "town": [
+      "towns": [
         "Ado",
         "Akwanga",
         "Alizaga",
-        "Ara Town",
+        "Ara towns",
         "Doma",
         "Gidan Mangoro",
         "Karshi",
@@ -1589,7 +1589,7 @@
     {
       "name": "Niger",
       "capital": "Minna",
-      "lga": [
+      "lgas": [
         "Agaie",
         "Agwara",
         "Bida",
@@ -1616,7 +1616,7 @@
         "Tafa",
         "Wushishi"
       ],
-      "town": [
+      "towns": [
         "Agaie",
         "Agwara",
         "Bida",
@@ -1642,7 +1642,7 @@
     {
       "name": "Ogun",
       "capital": "Abeokuta",
-      "lga": [
+      "lgas": [
         "Abeokuta North",
         "Abeokuta South",
         "Ado-Odo/Ota",
@@ -1664,7 +1664,7 @@
         "Remo North",
         "Shagamu"
       ],
-      "town": [
+      "towns": [
         "Abeokuta",
         "Agbede",
         "Agbon",
@@ -1712,7 +1712,7 @@
     {
       "name": "Ondo",
       "capital": "Akure",
-      "lga": [
+      "lgas": [
         "Akoko North East",
         "Akoko North West",
         "Akoko South Akure East",
@@ -1733,7 +1733,7 @@
         "Ose",
         "Owo"
       ],
-      "town": [
+      "towns": [
         "Owo",
         "Akure",
         "Ondo",
@@ -1776,7 +1776,7 @@
     {
       "name": "Osun",
       "capital": "Osogbo",
-      "lga": [
+      "lgas": [
         "Aiyedade",
         "Aiyedire",
         "Atakunmosa East",
@@ -1808,7 +1808,7 @@
         "Orolu",
         "Osogbo"
       ],
-      "town": [
+      "towns": [
         "Aiyedire",
         "Apomu",
         "Asipa",
@@ -1854,7 +1854,7 @@
     {
       "name": "Oyo",
       "capital": "Ibadan",
-      "lga": [
+      "lgas": [
         "Afijio",
         "Akinyele",
         "Atiba",
@@ -1889,7 +1889,7 @@
         "Saki West",
         "Surulere"
       ],
-      "town": [
+      "towns": [
         "Ado Awaiye",
         "Afijio",
         "Ajegunle",
@@ -1930,7 +1930,7 @@
     {
       "name": "Plateau",
       "capital": "Jos",
-      "lga": [
+      "lgas": [
         "Barkin Ladi",
         "Bassa",
         "Bokkos",
@@ -1949,7 +1949,7 @@
         "Shendam",
         "Wase"
       ],
-      "town": [
+      "towns": [
         "Barkin Ladi",
         "Bassa",
         "Bokkos",
@@ -1973,7 +1973,7 @@
     {
       "name": "Rivers",
       "capital": "Port Harcourt",
-      "lga": [
+      "lgas": [
         "Abua/Odual",
         "Ahoada East",
         "Ahoada West",
@@ -1998,7 +1998,7 @@
         "Port Harcourt",
         "Tai"
       ],
-      "town": [
+      "towns": [
         "Abua/Odual",
         "Akuku Toru",
         "Andoni",
@@ -2025,7 +2025,7 @@
     {
       "name": "Sokoto",
       "capital": "Sokoto",
-      "lga": [
+      "lgas": [
         "Binji",
         "Bodinga",
         "Dange Shuni",
@@ -2050,7 +2050,7 @@
         "Wurno",
         "Yabo"
       ],
-      "town": [
+      "towns": [
         "Balle",
         "Binji",
         "Bodinga",
@@ -2080,7 +2080,7 @@
     {
       "name": "Taraba",
       "capital": "Jalingo",
-      "lga": [
+      "lgas": [
         "Ardo Kola",
         "Bali",
         "Donga",
@@ -2098,7 +2098,7 @@
         "Yorro",
         "Zing"
       ],
-      "town": [
+      "towns": [
         "Ardo-Kola",
         "Donga",
         "Dorofi",
@@ -2122,7 +2122,7 @@
     {
       "name": "Yobe",
       "capital": "Damaturu",
-      "lga": [
+      "lgas": [
         "Bade",
         "Bursari",
         "Damaturu",
@@ -2141,7 +2141,7 @@
         "Yunusari",
         "Yusufari"
       ],
-      "town": [
+      "towns": [
         "Barde",
         "Borsari",
         "Buni Yadi",
@@ -2166,7 +2166,7 @@
     {
       "name": "Zamfara",
       "capital": "Gusau",
-      "lga": [
+      "lgas": [
         "Anka",
         "Bakura",
         "Birnin Magaji",
@@ -2183,7 +2183,7 @@
         "Tsafe",
         "Zurmi"
       ],
-      "town": [
+      "towns": [
         "Anka",
         "Bagega",
         "Bakura",
