@@ -1,4 +1,4 @@
-const nigeriaData  = require('./nigeriaData');
+const nigeriaData  = require('./data/nigeria.json');
 
 // Get All States
 const getStates = () => {
