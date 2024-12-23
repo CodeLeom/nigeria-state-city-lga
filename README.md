@@ -22,13 +22,13 @@ npm install nigerian-states-data
 ### JavaScript/Node.js Example
 
 ```javascript
-const { getStates, getLGAs, getTowns } = require('nigerian-states-data');
+import { getStates, getLgas, getTowns } from 'nigerian-states-data'
 
 // Get all states
 console.log(getStates());
 
 // Get LGAs of a specific state
-console.log(getLGAs('Lagos'));
+console.log(getLgas('Lagos'));
 
 // Get towns in a specific state
 console.log(getTowns('Lagos'));
