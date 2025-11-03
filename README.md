@@ -4,36 +4,56 @@ This project provides a dataset of all Nigerian states, Local Government Areas (
 
 ## Features
 
-- ✅ Comprehensive lists of Nigerian states, LGAs, and towns.
-- 🔧 Easy integration with NPM.
-- 🤝 Open to community contributions to enhance and expand the dataset.
-
+- Comprehensive lists of Nigerian states, LGAs, and towns.
+- Easy integration with NPM.
+- Open to community contributions to enhance and expand the dataset.
 
 ## Installation
 
-### For the NPM Package
+### Install
 
 ```bash
-npm install nigerian-states-data
+npm install nigeria-state-data
 ```
 
 ## Usage
 
-### JavaScript/Node.js Example
+### Usage (CommonJS / Node.js)
 
 ```javascript
-import { getStates, getLgas, getTowns } from 'nigerian-states-data'
+const {
+  getStates,
+  getStatesAndCapitals,
+  getLgas,
+  getTowns,
+  getCapital,
+  getState,
+  getStatesData,
+} = require("nigeria-state-data");
 
-// Get all states
+// All states
 console.log(getStates());
 
-// Get LGAs of a specific state
-console.log(getLgas('Lagos'));
+// States and capitals
+console.log(getStatesAndCapitals());
 
-// Get towns in a specific state
-console.log(getTowns('Lagos'));
+// LGAs of a state
+console.log(getLgas("Lagos"));
+
+// Towns (cities) of a state
+console.log(getTowns("Lagos"));
+
+// Capital of a state
+console.log(getCapital("Kano"));
+
+// Full state record
+console.log(getState("Rivers"));
+
+// All data
+console.log(getStatesData());
 ```
 
+> Note: This dataset currently lists towns at the state level. It does not include towns per LGA.
 
 ## Contributing
 
@@ -44,14 +64,14 @@ We’d love your contributions to make this dataset more accurate and complete!
 1. **Star the Repository**  
    Show your support by ⭐️ starring the repository.
 
-2. **Add Missing Data**  
+2. **Add Missing Data**
+
    - Fork this repository.
    - Edit the `data/nigeria.json` file to include missing states, LGAs, or towns.
 
-3. **Make a Pull Request**  
+3. **Make a Pull Request**
    - Ensure your pull request targets the `dev` branch.
    - Provide a clear description of your changes.
-
 
 ## Example Workflow for Contributions
 
