@@ -29,7 +29,7 @@ const {
   getCapital,
   getState,
   getStatesData,
-} = require("nigeria-state-data");
+} = require("nigeria-state-lga-data");
 
 // All states
 console.log(getStates());
