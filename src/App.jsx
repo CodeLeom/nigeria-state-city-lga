@@ -87,7 +87,7 @@ export default function App() {
           <Box sx={{ mt: 3 }}>
             <CodeBlock>{`npm i nigeria-state-lga-data`}</CodeBlock>
             <Typography variant="body2" color="text.secondary" sx={{ mt: 1, textAlign: 'center' }}>or</Typography>
-            <CodeBlock>{`yarn add nigeria-state-data`}</CodeBlock>
+            <CodeBlock>{`yarn add nigeria-state-lga-data`}</CodeBlock>
           </Box>
         </Paper>
 
