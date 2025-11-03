@@ -60,7 +60,7 @@ export default function App() {
             <Typography variant="h6" sx={{ fontWeight: 700 }}>Nigeria State Data</Typography>
           </Stack>
           <Stack direction="row" spacing={2}>
-            <Link href="https://www.npmjs.com/package/nigeria-state-data" target="_blank" underline="hover" color="primary">NPM</Link>
+            <Link href="https://www.npmjs.com/package/nigeria-state-lga-data" target="_blank" underline="hover" color="primary">NPM</Link>
             <Link href="https://github.com/CodeLeom/nigeria-state-city-lga" target="_blank" underline="hover" color="primary">GitHub</Link>
           </Stack>
         </Container>
@@ -80,12 +80,12 @@ export default function App() {
             <Typography variant="h3" sx={{ fontWeight: 800, letterSpacing: -0.5 }}>Nigerian States, LGAs, and Towns</Typography>
             <Typography color="text.secondary">Lightweight Node package with clean helpers for states, LGAs, capitals, and towns.</Typography>
             <Stack direction={{ xs: 'column', sm: 'row' }} spacing={1.5} justifyContent="center" sx={{ mt: 1 }}>
-              <Button color="primary" variant="contained" startIcon={<DownloadIcon />} href="https://www.npmjs.com/package/nigeria-state-data" target="_blank">Install</Button>
+              <Button color="primary" variant="contained" startIcon={<DownloadIcon />} href="https://www.npmjs.com/package/nigeria-state-lga-data" target="_blank">Install</Button>
               <Button color="primary" variant="outlined" startIcon={<PublicIcon />} href="https://github.com/CodeLeom/nigeria-state-city-lga" target="_blank">Repository</Button>
             </Stack>
           </Stack>
           <Box sx={{ mt: 3 }}>
-            <CodeBlock>{`npm install nigeria-state-data`}</CodeBlock>
+            <CodeBlock>{`npm i nigeria-state-lga-data`}</CodeBlock>
             <Typography variant="body2" color="text.secondary" sx={{ mt: 1, textAlign: 'center' }}>or</Typography>
             <CodeBlock>{`yarn add nigeria-state-data`}</CodeBlock>
           </Box>
@@ -107,7 +107,7 @@ export default function App() {
   getCapital,
   getState,
   getStatesData
-} = require('nigeria-state-data');
+} = require('nigeria-state-lga-data');
 
 console.log(getStates());                 // ['Abia', 'Adamawa', ...]
 console.log(getLgas('Lagos'));            // ['Agege', 'Alimosho', ...]
@@ -147,7 +147,7 @@ console.log(getStatesData().length);      // 36
         <Divider sx={{ my: 5 }} />
 
         <Stack direction="row" spacing={1.5} justifyContent="center">
-          <Button color="primary" variant="contained" href="https://www.npmjs.com/package/nigeria-state-data" target="_blank">View on NPM</Button>
+          <Button color="primary" variant="contained" href="https://www.npmjs.com/package/nigeria-state-lga-data" target="_blank">View on NPM</Button>
           <Button color="primary" variant="outlined" href="https://github.com/CodeLeom/nigeria-state-city-lga" target="_blank">GitHub Repo</Button>
         </Stack>
       </Container>
