@@ -154,7 +154,7 @@ console.log(getStatesData().length);      // 36
 
       <Box component="footer" sx={{ borderTop: 1, borderColor: 'divider', bgcolor: 'background.paper', mt: 6 }}>
         <Container maxWidth="lg" sx={{ py: 3 }}>
-          <Typography variant="caption" color="text.secondary">MIT Licensed. Built with Vite + Material UI.</Typography>
+          <Typography variant="caption" color="text.secondary">MIT Licensed. Built with Vite & Material UI.</Typography>
         </Container>
       </Box>
     </Box>
