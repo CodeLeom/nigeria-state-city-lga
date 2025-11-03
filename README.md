@@ -13,7 +13,7 @@ This project provides a dataset of all Nigerian states, Local Government Areas (
 ### Install
 
 ```bash
-npm install nigeria-state-data
+npm install nigeria-state-lga-data
 ```
 
 ## Usage
