@@ -1,24 +1,38 @@
-# Nigerian States, LGAs, and Towns package
+# Nigeria States → LGAs → Towns (Data package)
 
-This project provides a dataset of all Nigerian states, Local Government Areas (LGAs), and towns/villages. It is designed for developers building applications requiring accurate information for Nigeria.
+Dataset and helpers for Nigerian states, their capitals, Local Government Areas (LGAs), and towns/cities. Built for developers who need a dependable, copy‑paste‑ready source of Nigerian administrative data.
+
+[![npm version](https://img.shields.io/npm/v/nigeria-state-lga-data.svg?color=%23007ec6)](https://www.npmjs.com/package/nigeria-state-lga-data)
+[![npm downloads](https://img.shields.io/npm/dm/nigeria-state-lga-data.svg)](https://www.npmjs.com/package/nigeria-state-lga-data)
+[![license: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/CodeLeom/nigeria-state-city-lga/blob/main/LICENSE)
+
+## Quick links
+
+- **Install**: [Installation](#installation)
+- **Use it**: [Usage](#usage)
+- **Data shape**: [Data reference](#data-reference)
+- **Contribute**: [Contributing](#contributing)
+- **Dev setup**: [Local development](./CONTRIBUTION.md#local-development)
 
 ## Features
 
-- Comprehensive lists of Nigerian states, LGAs, and towns.
-- Easy integration with NPM.
-- Open to community contributions to enhance and expand the dataset.
+- Comprehensive list of states, capitals, LGAs, and towns
+- Stable JS helpers for common lookups
+- Lightweight package, easy to integrate
 
 ## Installation
 
-### Install
-
 ```bash
-npm install nigeria-state-data
+npm install nigeria-state-lga-data
+# or
+yarn add nigeria-state-lga-data
 ```
+
+Node: works on current LTS releases. The library is published as CommonJS. You can use it in any JavaScript project (Node.js directly, or via bundlers like Vite/Webpack). For browser usage, bundle it with your app.
 
 ## Usage
 
-### Usage (CommonJS / Node.js)
+### CommonJS (Node.js)
 
 ```javascript
 const {
@@ -29,80 +43,94 @@ const {
   getCapital,
   getState,
   getStatesData,
-} = require("nigeria-state-data");
+} = require('nigeria-state-lga-data');
 
-// All states
 console.log(getStates());
-
-// States and capitals
 console.log(getStatesAndCapitals());
-
-// LGAs of a state
-console.log(getLgas("Lagos"));
-
-// Towns (cities) of a state
-console.log(getTowns("Lagos"));
-
-// Capital of a state
-console.log(getCapital("Kano"));
-
-// Full state record
-console.log(getState("Rivers"));
-
-// All data
+console.log(getLgas('Lagos'));
+console.log(getTowns('Lagos'));
+console.log(getCapital('Kano'));
+console.log(getState('Rivers'));
 console.log(getStatesData());
 ```
 
-> Note: This dataset currently lists towns at the state level. It does not include towns per LGA.
+### ES Modules
+
+```javascript
+import pkg from 'nigeria-state-lga-data';
+const {
+  getStates,
+  getStatesAndCapitals,
+  getLgas,
+  getTowns,
+  getCapital,
+  getState,
+  getStatesData,
+} = pkg; // CJS default export → destructure helpers
+
+console.log(getStates());
+```
+
+## Data reference
+
+The primary dataset lives in `data/nigeria.json` and follows this structure:
+
+```json
+{
+  "states": [
+    {
+      "name": "Abia",
+      "capital": "Umuahia",
+      "lgas": ["Aba North", "Aba South", "Arochukwu", "Bende", "..."] ,
+      "towns": ["Aba", "Umuahia", "Ohafia", "..."]
+    }
+  ]
+}
+```
+
+Minimal example of a single state object:
+
+```json
+{
+  "name": "Lagos",
+  "capital": "Ikeja",
+  "lgas": ["Agege", "Alimosho", "Eti-Osa", "Ikeja", "Ikorodu", "..."],
+  "towns": ["Ikeja", "Lekki", "Ikorodu", "Epe", "Badagry", "..."]
+}
+```
+
+Notes:
+
+- Towns are currently listed at the state level (not per LGA).
+
+## API (helpers)
+
+From `index.js`:
+
+| Helper | Params | Returns | Description | Notes |
+| :-- | :-- | :-- | :-- | :-- |
+| `getStates` | `()` | `string[]` | List of all state names. | Order matches dataset. |
+| `getStatesAndCapitals` | `()` | `{ state: string; capital: string }[]` | Pairs of state and capital. | Useful for dropdowns. |
+| `getLgas` | `(state: string)` | `string[]` | LGAs for a given state. | Case-insensitive; returns `[]` if not found. |
+| `getTowns` | `(state: string)` | `string[]` | Towns/cities for a given state. | Case-insensitive; returns `[]` if not found. |
+| `getCapital` | `(state: string)` | `string` | Capital name for a given state. | Returns `''` if not found. |
+| `getState` | `(state: string)` | `{ name: string; capital: string; lgas: string[]; towns: string[] } \| null` | Full state record. | Returns `null` if not found. |
+| `getStatesData` | `()` | `{ name: string; capital: string; lgas: string[]; towns: string[] }[]` | Full dataset shallow-copied per state. | Safe to read and map. |
 
 ## Contributing
 
-We’d love your contributions to make this dataset more accurate and complete!
+Want to contribute data or improvements? See [CONTRIBUTION.md](./CONTRIBUTION.md) for the full guide, dev setup, and PR checklist.
 
-### How to Contribute
+## Release and versioning
 
-1. **Star the Repository**  
-   Show your support by ⭐️ starring the repository.
-
-2. **Add Missing Data**
-
-   - Fork this repository.
-   - Edit the `data/nigeria.json` file to include missing states, LGAs, or towns.
-
-3. **Make a Pull Request**
-   - Ensure your pull request targets the `dev` branch.
-   - Provide a clear description of your changes.
-
-## Example Workflow for Contributions
-
-```bash
-# Fork the repository
-git clone https://github.com/your-username/nigerian-states-data.git
-cd nigerian-states-data
-
-# Create a new branch for your changes
-git checkout -b add-missing-data-town
-
-# Make your edits to data/nigeria.json
-# Commit and push your changes
-git commit -m -s "Add missing LGAs for Kwara state"
-git push origin add-missing-data
-
-# Create a pull request to the dev branch
-```
-
----
+We follow SemVer. Non-breaking data additions are minor bumps; breaking shape changes are major bumps. Changelog entries go in PR descriptions and release notes.
 
 ## Issues
 
-Encounter a bug or need help? Open an issue in the repository, and we’ll respond as quickly as possible.
-
----
+Found a problem or need help? Open an issue on GitHub.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+MIT — see [LICENSE](./LICENSE).
 
----
-
-If you find this project useful, don’t forget to **star the repository** ⭐️ and share it with others!
+If this project helps you, please ⭐️ the repo and share it.
