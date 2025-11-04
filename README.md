@@ -4,7 +4,7 @@ Dataset and helpers for Nigerian states, their capitals, Local Government Areas 
 
 [![npm version](https://img.shields.io/npm/v/nigeria-state-lga-data.svg?color=%23007ec6)](https://www.npmjs.com/package/nigeria-state-lga-data)
 [![npm downloads](https://img.shields.io/npm/dm/nigeria-state-lga-data.svg)](https://www.npmjs.com/package/nigeria-state-lga-data)
-[![license: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/Shuaibu78/nigeria-state-city-lga/blob/main/LICENSE)
+[![license: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/CodeLeom/nigeria-state-city-lga/blob/main/LICENSE)
 
 ## Quick links
 
@@ -70,7 +70,6 @@ const {
 
 console.log(getStates());
 ```
-
 
 ## Data reference
 
